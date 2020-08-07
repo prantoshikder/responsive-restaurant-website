@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Google Fonts */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+    outline: 0;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+img,
+ul,
+ol,
+li,
+span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Common CSS */
+
+
+/* Main CSS */
+
+
+/* Header part start */
+
+
+/* header_top */
+
+.header_top {
+    background: #f9c14a;
+    padding: 17px 0px;
+}
+
+.header_top span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login_top ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_top ul li {
+    margin-right: 16px;
+}
+
+.header_top ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+/* header_main_menu */
+
+.header_main_menu {
+    background: #000;
+}
+
+.navbar-nav {}
+
+.navbar-nav .nav-item {
+    margin-right: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff ! important;
+    transition: all linear .3s;
+    display: block;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #f9c14a;
+}
+
+
+/* Header part end */
+
+
+/* Slider part start */
+
+.carousel-item img {
+    height: 80vh;
+}
+
+.carousel-caption {
+    padding-bottom: 12%;
+}
+
+.carousel-caption form i {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 14px;
+    color: black;
+    opacity: .4;
+}
+
+.carousel-caption form input {
+    margin-bottom: 17%;
+    margin-left: 78%;
+    border-radius: 15px;
+    border: none;
+    outline: 0;
+    padding: 9px 125px 9px 58px;
+}
+
+.carousel-caption h1 {
+    padding: 24px 19px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20px;
+    height: 135px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.carousel-caption h1 span {
+    color: #f9c14a;
+}
+
+.carousel-caption p {
+    margin-left: 60%;
+    margin-top: 5px;
+}
+
+.carousel-caption p a {
+    color: #f9c14a;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-indicators .active {
+    background-color: #f9c14a;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+
+/* Slider part end */
+
+
+/* Browse part end */
+
+.browse_part {
+    background: #f4f4f4;
+    padding: 24px 0px;
+}
+
+.browse_heading h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.browse_all_item {
+    margin-left: 80%;
+}
+
+.browse_all_item a {
+    color: black !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slick_slider {
+    padding-top: 45px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .previous_arrow {
+    color: gray;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: -8%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.slider .next_arrow {
+    color: gray;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    right: -8%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.slider .slider_items img {
+    margin-left: 28px;
+}
+
+
+/* Browse part end */
+
+
+/* Feature part start */
+
+.feature_part {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.feature_heading h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.feature_all_item {
+    margin-left: 68%;
+}
+
+.feature_all_item a {
+    color: black !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slick_slider {
+    padding-top: 45px;
+}
+
+.feature_slider {
+    position: relative;
+}
+
+.feature_slider .previous_arrow {
+    color: gray;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: -8%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.feature_slider .next_arrow {
+    color: gray;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    right: -8%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.feature_slider .feature_items img {
+    margin-left: 11px;
+    height: 200px;
+    width: 345px;
+}
+
+
+/* Feature part end */
+
+
+/* Near by part start */
+
+.nearBy_part {
+    padding: 45px 0px;
+    background: #f4f4f4;
+}
+
+.nearBy_heading h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nearBy_all_item {
+    margin-left: 68%;
+}
+
+.nearBy_all_item a {
+    color: black !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nearBy-restaurant {
+    padding-top: 25px;
+}
+
+.nearBy_items img {
+    /* margin-left: 11px; */
+    height: 200px;
+    width: 345px;
+}
+
+
+/* Near by part ends */
+
+
+/* Online part start */
+
+.onlineStore_part {
+    padding: 55px 0px;
+    border-bottom: 15px solid #f9c14a;
+}
+
+.online_content h2 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.online_content h6 {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.online_btn ul {
+    margin-left: 40%;
+    margin-top: 12px;
+}
+
+.online_btn ul li {
+    margin: 5px;
+}
+
+.online_btn ul li a {}
+
+.online_btn ul li a img {}
+
+
+/* Online part end */
+
+
+/* Contact part start */
+
+.footer_part {
+    background: #000;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.footer_content {
+    margin-left: 8%;
+}
+
+.f_content {
+    padding-top: 25px;
+}
+
+.f_content::after {
+    content: ' ';
+    background: #f9c14a;
+    height: 250px;
+    width: 2px;
+    position: absolute;
+}
+
+.f_content::after {
+    content: ' ';
+    bottom: 0;
+    right: 100px;
+}
+
+.f_contact::after {
+    content: ' ';
+    background: #f9c14a;
+    height: 250px;
+    width: 2px;
+    position: absolute;
+    top: 19px;
+    left: 80%;
+}
+
+.f_contact h2,
+.f_follower h2,
+.f_content h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.f_content h5 {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 0px 20px 0px;
+}
+
+.f_content a {
+    padding: 5px 5px;
+    background: #f9c14a;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.con_address ul li {
+    margin-top: 22px;
+}
+
+.location i {
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px 0px 0px 12px;
+    font-size: 30px;
+}
+
+.phone i {
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    padding: 7px 0px 0px 10px;
+    font-size: 25px;
+}
+
+.gmail i {
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    padding: 9px 0px 0px 9px;
+    font-size: 22px;
+}
+
+.loc_con h6,
+.phn_con h6 {
+    margin-left: 25px;
+}
+
+.gmail h6 {
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.phn_con,
+.gmail h6,
+.loc_con h6 {
+    color: white;
+}
+
+.con_follower ul li h6 {
+    color: white;
+}
+
+.con_follower ul li {
+    margin-top: 22px;
+}
+
+.twitter h6,
+.facebook h6 {
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.instagram h6 {
+    margin-left: 35px;
+    margin-top: 2px;
+}
+
+.instagram a i,
+.twitter i {
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    padding: 7px 0px 0px 10px;
+    font-size: 25px;
+}
+
+.facebook i {
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    padding: 7px 0px 0px 12px;
+    font-size: 25px;
+}
+
+
+/* Contact part end */

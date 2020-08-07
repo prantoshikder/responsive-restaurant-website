@@ -1,0 +1,404 @@
+@media (max-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: white transparent;
+        border: 1px solid white;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        color: #fff !important;
+        font-size: 12px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .carousel-caption form input {
+        margin-bottom: 5%;
+        margin-left: 0px;
+        padding: 9px 0px 9px 55px;
+    }
+    .carousel-caption form i {
+        margin-left: 4%;
+    }
+    .carousel-caption h1 {
+        padding: 24px 19px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 20px;
+        height: 135px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10%;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .carousel-caption p {
+        margin-left: 40%;
+        margin-top: 5px;
+    }
+    .browse_all_item {
+        margin-left: 70%;
+    }
+    .slider .slider_items img {
+        margin-left: 65px;
+    }
+    .slider .next_arrow {
+        top: 5%;
+        right: -4%;
+    }
+    .slider .previous_arrow {
+        top: 5%;
+        left: -4%;
+    }
+    .feature_slider .previous_arrow {
+        top: 36%;
+        left: -4%;
+    }
+    .feature_slider .next_arrow {
+        top: 36%;
+        right: -4%;
+    }
+    .feature_all_item {
+        margin-left: 49%;
+    }
+    .feature_slider .feature_items img {
+        margin-left: 11px;
+        height: 138px;
+        width: 215px;
+    }
+    .nearBy_all_item {
+        margin-left: 49%;
+    }
+    .nearBy_items img {
+        height: 115px;
+        width: 220px;
+    }
+    .online_btn ul {
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+    .footer_content {
+        margin-left: 2%;
+    }
+    .loc_con h6,
+    .phn_con h6 {
+        margin-left: 12px;
+    }
+    .gmail h6 {
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .twitter h6,
+    .facebook h6 {
+        margin-left: 12px;
+        margin-top: 8px;
+    }
+    .instagram h6 {
+        margin-left: 12px;
+        margin-top: 10px;
+    }
+    .f_content {
+        padding-top: 0px;
+    }
+    .f_content::after {
+        display: none;
+    }
+    .f_contact::after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: white transparent;
+        border: 1px solid white;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        color: #fff !important;
+        font-size: 10px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .carousel-caption form input {
+        margin-bottom: 10%;
+        margin-left: 0px;
+        padding: 9px 0px 9px 55px;
+    }
+    .carousel-caption form i {
+        margin-left: 4%;
+    }
+    .carousel-caption h1 {
+        padding: 25px 0px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 20px;
+        height: 135px;
+        width: 110%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -5%;
+        font-size: 24px;
+        margin-bottom: -5px;
+        line-height: 38px;
+    }
+    .carousel-caption p {
+        margin-left: 0%;
+    }
+    .browse_all_item {
+        margin-left: 58%;
+    }
+    .feature_all_item {
+        margin-left: 30%;
+    }
+    .feature_slider .feature_items img {
+        height: 100px;
+        width: 150px;
+    }
+    .feature_slider .previous_arrow,
+    .feature_slider .next_arrow {
+        top: 32%;
+    }
+    .nearBy_all_item {
+        margin-left: 30%;
+    }
+    .nearBy_items img {
+        height: 130px;
+        width: 170px;
+    }
+    .online_btn ul {
+        margin-left: 25%;
+    }
+    .f_contact h2,
+    .f_follower h2,
+    .f_content h2 {
+        font-size: 24px;
+    }
+    .f_content h5 {
+        font-size: 12px;
+    }
+    .location i {
+        height: 30px;
+        width: 30px;
+        padding: 4px 0px 0px 9px;
+        font-size: 22px;
+    }
+    .phone i {
+        height: 30px;
+        width: 30px;
+        padding: 5px 0px 0px 7px;
+        font-size: 22px;
+    }
+    .gmail i {
+        height: 30px;
+        width: 30px;
+        padding: 6px 0px 0px 7px;
+        font-size: 18px;
+    }
+    .loc_con h6,
+    .phn_con h6 {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .gmail h6 {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .instagram a i,
+    .twitter i {
+        height: 30px;
+        width: 30px;
+        padding: 5px 0px 0px 6px;
+        font-size: 22px;
+    }
+    .facebook i {
+        height: 30px;
+        width: 30px;
+        padding: 5px 0px 0px 8px;
+        font-size: 22px;
+    }
+    .twitter h6,
+    .facebook h6 {
+        margin-left: 10px;
+        margin-top: 4px;
+        font-size: 12px;
+    }
+    .instagram h6 {
+        margin-left: 10px;
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    .f_content {
+        padding-top: 0px;
+    }
+    .f_content::after {
+        display: none;
+    }
+    .f_contact::after {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .header_top {
+        padding: 5px 0px;
+    }
+    .header_top .limo {
+        text-align: center;
+    }
+    .header_top .login_top ul {
+        display: flex;
+        justify-content: center;
+    }
+    .header_top ul li {
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: white transparent;
+        border: 1px solid white;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        color: #fff !important;
+        font-size: 10px;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 35px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .carousel-caption form input {
+        margin-bottom: 30%;
+        margin-left: 0px;
+        padding: 9px 0px 9px 35px;
+    }
+    .carousel-caption form i {
+        margin-left: 5%;
+    }
+    .carousel-caption h1 {
+        padding: 18px 0px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 20px;
+        height: 135px;
+        width: 110%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -5%;
+        font-size: 20px;
+        margin-bottom: 40px;
+        line-height: 24px;
+    }
+    .carousel-caption p {
+        margin-left: 0%;
+    }
+    .browse_heading h2 {
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    .browse_all_item {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .slider .slider_items img {
+        margin: 0px 0px 0px 25px;
+    }
+    .slider .previous_arrow {
+        top: 15%;
+        left: -2%;
+        font-size: 40px;
+    }
+    .slider .next_arrow {
+        top: 15%;
+        right: -2%;
+        font-size: 40px;
+    }
+    .feature_heading h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .feature_all_item {
+        margin-left: 22%;
+        margin-top: 6px;
+    }
+    .feature_slider .feature_items img {
+        margin-left: 45px;
+        height: 100px;
+        width: 200px;
+    }
+    .feature_slider .previous_arrow {
+        top: 36%;
+        left: -2%;
+        font-size: 40px;
+    }
+    .feature_slider .next_arrow {
+        top: 36%;
+        right: -2%;
+        font-size: 40px;
+    }
+    .nearBy_heading h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .nearBy_all_item {
+        margin-left: 22%;
+        margin-top: 5px;
+    }
+    .nearBy_items img {
+        height: 100px;
+        width: 200px;
+    }
+    .onlineStore_part {
+        padding: 25px 0px;
+    }
+    .online_content h2 {
+        font-size: 22px;
+    }
+    .online_content h6 {
+        font-size: 15px;
+    }
+    .online_btn ul {
+        margin-left: 10%;
+    }
+    .f_content::after {
+        display: none;
+    }
+    .f_contact::after {
+        display: none;
+    }
+    .footer_part {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .f_contact h2,
+    .f_follower h2,
+    .f_content h2 {
+        font-size: 22px;
+    }
+}
