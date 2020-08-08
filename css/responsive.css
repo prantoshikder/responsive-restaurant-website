@@ -327,7 +327,7 @@
         margin-top: 5px;
     }
     .slider .slider_items img {
-        margin: 0px 0px 0px 25px;
+        margin: 0px 0px 0px 45px;
     }
     .slider .previous_arrow {
         top: 15%;
@@ -344,11 +344,11 @@
         text-align: center;
     }
     .feature_all_item {
-        margin-left: 22%;
+        margin-left: 27%;
         margin-top: 6px;
     }
     .feature_slider .feature_items img {
-        margin-left: 45px;
+        margin-left: 85px;
         height: 100px;
         width: 200px;
     }
@@ -384,7 +384,7 @@
         font-size: 15px;
     }
     .online_btn ul {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     .f_content::after {
         display: none;
