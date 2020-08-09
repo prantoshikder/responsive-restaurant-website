@@ -338,9 +338,9 @@ h6,
 }
 
 .feature_slider .feature_items img {
-    margin-left: 11px;
-    height: 200px;
-    width: 345px;
+    /* margin-left: 11px;
+    height: 200px; */
+    width: 95%;
 }
 
 

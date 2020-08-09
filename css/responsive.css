@@ -336,7 +336,7 @@
         margin-top: 5px;
     }
     .slider .slider_items img {
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 25px;
     }
     .slider .previous_arrow {
         top: 15%;
@@ -353,13 +353,13 @@
         text-align: center;
     }
     .feature_all_item {
-        margin-left: 27%;
-        margin-top: 6px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 5px;
     }
     .feature_slider .feature_items img {
-        margin-left: 45px;
-        height: 100px;
-        width: 200px;
+        margin-left: 30px;
+        width: 80%;
     }
     .feature_slider .previous_arrow {
         top: 36%;
@@ -376,7 +376,8 @@
         text-align: center;
     }
     .nearBy_all_item {
-        margin-left: 22%;
+        text-align: center;
+        margin-left: 0;
         margin-top: 5px;
     }
     .nearBy_items img {
